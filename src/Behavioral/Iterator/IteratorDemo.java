@@ -23,7 +23,7 @@ public class IteratorDemo {
         Iterator<String> itr = list.iterator();
         
         for(;itr.hasNext();){
-            
+            System.out.println(itr.next());
         }
     }
 }
